@@ -54,7 +54,8 @@ Data includes:
 | Task                        | Best Model         | R² Score / Accuracy | Key Features                      |
 |----------------------------|--------------------|---------------------|-----------------------------------|
 | Soil Nutrient Classification | Random Forest  classifier    | 100%                 | Soil texture               |
+| Soil Nutrient Classification | XGB  classifier    | 83%                 | Soil Fertility           |
 | Crop Yield Prediction       | XGB Regressor  | 94.5 (R²)             | Crop Yeild     |
 | Crop Yeild Prediction       | Random Forest Regressor | 95.4 (R²)    | Crop Yeild                   |
-| Soil Nutrient Classification | XGB  classifier    | 83%                 | Soil Fertility           |
+
 
