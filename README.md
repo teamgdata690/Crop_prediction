@@ -45,7 +45,7 @@ Data includes:
 #### 2. **Crop Yield Prediction (Regression)**
 - Random Forest Regressor
 - XGBoost Regressor
-- Evaluation using MAE, RMSE, and R² Score
+- Evaluation using RMSE, and R² Score
 
 ---
 
