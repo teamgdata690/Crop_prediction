@@ -1,6 +1,6 @@
-# 🌾 Crop Recommendation System for Improving Crop Yeild
+#  Crop Recommendation System for Improving Crop Yeild
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to build a machine learning pipeline to:
 1. **Classify soil nutrient levels** to assess soil health.
@@ -10,7 +10,7 @@ The goal is to support data-driven decision-making for farmers, agronomists, and
 
 ---
 
-## 🌍 Data Sources
+##  Data Sources
 
 The project uses a combination of soil and crop datasets from global and national sources:
 
@@ -24,19 +24,19 @@ Data includes:
 
 ---
 
-## 🧪 Methods
+##  Methods
 
-### 🔹 Data Cleaning & Preprocessing
+###  Data Cleaning & Preprocessing
 - Removed nulls and outliers using **IQR-based** and later **group-based imputation** methods.
 - Standardized column names and units across multiple datasets.
 - Created new features such as **soil fertility class** and **soil texture** based on thresholds.
 
-### 🔹 Exploratory Data Analysis (EDA)
+###  Exploratory Data Analysis (EDA)
 - Distribution plots, heatmaps, line charts, and boxplots to identify trends and relationships.
 - Fertility and texture classification based on scientific thresholds.
 - Regional and crop-wise yield comparison.
 
-### 🔹 Machine Learning Models
+###  Machine Learning Models
 
 #### 1. **Soil Nutrient Classification (Classification)**
 - Random Forest Classifier
@@ -49,7 +49,7 @@ Data includes:
 
 ---
 
-## 📈 Key Results
+##  Key Results
 
 | Task                        | Best Model         | R² Score / Accuracy | Key Features                      |
 |----------------------------|--------------------|---------------------|-----------------------------------|
